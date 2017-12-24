@@ -10,4 +10,4 @@ spec:
   persistentVolumeReclaimPolicy: Recycle
   nfs:
     path: /exports
-    server: 192.16.35.12
+    server: 192.168.137.12

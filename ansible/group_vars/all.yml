@@ -28,7 +28,7 @@ haproxy: true
 keepalived: true # set `lb_vip_address` as keepalived vip, if this enable.
 keepalived_vip_interface: eth1
 
-lb_vip_address: 192.16.35.9
+lb_vip_address: 192.168.137.9
 lb_secure_port: 6443
 lb_api_url: "https://{{ lb_vip_address }}:{{ lb_secure_port }}"
 
